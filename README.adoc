@@ -1,1 +1,19 @@
 = _Apostila Curso Python_
+Doc Writter <doc.writer@exemple.com>
+:icons: font
+
+_Zen_ is the *art* of writting `plain text` with
+http://asciidoc.org[AsciiDoc].
+
+[TIP]
+Use http://asciidoctor.org
+
+== Sample Section
+[square]
+* item 1
+* item 2
+
+[source,ruby]
+----
+console.log("Hello World!");
+----
