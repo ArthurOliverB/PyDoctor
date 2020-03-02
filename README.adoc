@@ -13,7 +13,7 @@ Use http://asciidoctor.org
 * item 1
 * item 2
 
-[source,ruby]
+[source,javascript]
 ----
 console.log("Hello World!");
 ----
