@@ -1,3 +1,5 @@
+:tip-caption: :bulb:
+
 === Meu primeiro programa
 O próximo exercício representa o nosso primeiro programa em Python!
 
