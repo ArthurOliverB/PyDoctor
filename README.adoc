@@ -1,21 +1,24 @@
-= _Apostila Curso Python_
-Doc Writter <doc.writer@exemple.com>
-:icons: font
+=== Meu primeiro programa
+O próximo exercício representa o nosso primeiro programa em Python!
 
-_Zen_ is the *art* of writting `plain text` with
-http://asciidoc.org[AsciiDoc].
+.primeiro_programa.py
+[source,python]
+----
+print("Olá python!")
+----
+
+O método *print* nos permite imprimir algum valor no terminal. No caso imprimimos __Olá python! __
 
 [TIP]
-Use http://asciidoctor.org
+Python também é possível quebrar a sentênça em múltiplas linhas
 
-== Sample Section
-[square]
-* item 1
-* item 2
+.primeiro_programa.py
+[source,python]
+----
+print("Olá python!")
 
-[source,ruby]
+print(
+    "Olá Python!"
+)
 ----
-function HelloWorld() {
-  console.log("Hello!")
-}
-----
+ 
