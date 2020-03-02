@@ -17,7 +17,7 @@ Vamos lá?
 
 === **Algoritmos**
 
-[verse, Oxford Lexico, A definição de algoritmo]
+[quote, Oxford Lexico, A definição de algoritmo]
 Trata-se de um processo ou conjunto de regras a serem seguidas em cálculos ou outras operações voltadas para solução de problemas[...]
 
 Como a definção bem disse, algoritmos são basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, uma receita de bolo, pode ser caracterizada como um algoritmo, veja:
