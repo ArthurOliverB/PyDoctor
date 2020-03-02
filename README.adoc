@@ -1,4 +1,16 @@
 :tip-caption: :bulb:
+= **Curso Algoritmos: Fundamentos**
+
+= **Capítulo 1: Fundamentos**
+
+Seja bem vindo ao curso de Algoritmos! Ficamos muito felizes de ter você por aqui, e estamos ansiosos para te acompanhar nessa jornada de aprendizado!
+
+
+
+== **Algoritmos**
+"`What kind of charm?`" Lazarus asked. "`An odoriferous one or a mineral one?`" 
+
+Kizmet shrugged. "`The note from Olaf's desk says '`wormwood and licorice,`' but these could be normal groceries for werewolves.`"
 
 === Meu primeiro programa
 O próximo exercício representa o nosso primeiro programa em Python!
