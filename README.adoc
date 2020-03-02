@@ -13,7 +13,9 @@ Use http://asciidoctor.org
 * item 1
 * item 2
 
-[source,javascript]
+[source,ruby]
 ----
-console.log("Hello World!");
+function HelloWorld() {
+  console.log("Hello!")
+}
 ----
