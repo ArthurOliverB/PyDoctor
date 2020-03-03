@@ -17,9 +17,10 @@ Seja bem vindo ao primeiro capítulo do nosso curso, **fundamentos**! Nesse prim
 Vamos lá?
 
 === **Algoritmos**
-
+====
 [quote, Oxford Lexico]
 Trata-se de um processo ou conjunto de regras a serem seguidas em cálculos ou outras operações voltadas para solução de problemas[...]
+====
 
 Como a definção bem disse, algoritmos são 
 basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, se preparar para sair de casa de manhã, pode ser caracterizada como um algoritmo, veja:
@@ -60,10 +61,8 @@ Olá python!
 <1> **O método ``print`` nos permite imprimir algum valor no terminal. No caso imprimimos __Olá python! __**
 ====
 
-
-
 [TIP]
-Python também é possível quebrar a sentênça em múltiplas linhas
+Python também é possível quebrar a sentença em múltiplas linhas
 
 .primeiro_programa.py
 ====
@@ -103,40 +102,51 @@ tipoSanguineo = "B+"
 
 [IMPORTANT]
 ====
-Python não possui constantes. No lugar, são utilizados declarações em caixa alta! Ver exemplo <<>>
+É imporante ressaltar que python não suporta constantes! Os desenvolvedores convencionaram que variáveis declaradas em caixa alta são "constantes" e não podem ser alteradas
 ====
 
-
-.variaveis_e_constantes.py
+.Pseudo constantes em Python
 ====
 [source,python]
 ----
-MODELO = "Uno"
-fabricado_por = "Fiat"
-print("Modelo: " + modelo)
-print("Marca: " + fabricado_por)
-----
-====
-
-# MOTIVO: Alguns acreditam que o motivo está por trás da ineficiencia em checar toda vez
-# se uma variável pode ser ou não alterada. Outros complementam que não se deve restringir esse tipo de coisa
-# visto que "somos todos adultos" e que podemos estar de acordo.
-
-# Fontes
-# https://stackoverflow.com/questions/17291791/why-no-const-in-python
-# https://mail.python.org/pipermail/tutor/2003-October/025932.html
 ANO = 2019
 print(ANO)
 ANO = 2020
 print(ANO)
+----
+====
 
-# Usar comentários aqui
+Outro recurso importante de toda linguagem de programação são comentários. Os comentários servem para apresentar em forma de texto uma informação adicional que talvez não esteja explicita no código. 
 
-# Esse tipo de comentário não é o usual,
-# o interpretador vai ler mesmo assim e
-# enviar para o GC
-# """
-#     usar comentários de
-#     multiplas linhas tb
-# """
-# O correto é utilizar o # mesmo
+.Pseudo constantes em Python
+====
+[source,python]
+----
+
+# Python não possui constantes!
+ANO = 2019
+print(ANO)
+ANO = 2020
+print(ANO)
+----
+====
+
+[CAUTION]
+====
+Evite criar comentários desnecessários!
+====
+
+=== Tipos básicos
+No mundo real usamos letras para expressar nomes, palavras para expressar textos e numeros para representar valores e com isso em mente as linguagens de programação possuem alguns tipos básicos para podermos traduzir isso para linguagem de máquina, dentre eles: 
+
+[cols="2*<"]
+|=== 
+|*Tipo*    | *Uso*
+| Strings  | Letras e palavras
+| Inteiros | Numeros
+| Floats   | Decimais
+| Boolean  | Expressões lógicas
+|=== 
+
+
+
