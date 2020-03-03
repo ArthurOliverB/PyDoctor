@@ -1,4 +1,5 @@
 :tip-caption: :bulb:
+:warning-caption: 🤔
 :sectnums:
 
 = **Curso Algoritmos: Fundamentos**
@@ -36,6 +37,14 @@ Como a definção bem disse, algoritmos são basicamente uma série de instruç�
 . Passado os 40 minutos pegue um grafo e coloque no bolo, se não sair massa no garfo retire o bolo do forno com um guardanapo, se sair deixe mais um tempo no forno lembrando de sempre fura-lo pra ver se já esta bom. 
 . Passe uma faca envolta do bolo ainda dentro da forma, pegue um recipiente que caiba o bolo, e vire-o nele (lembrando de pegar a forma ainda com um guardanapo pois, estará quente). 
 . Pegue uma faca e corte o bolo. 
+
+
+
+Que tal tentar identificar e tentar escrever alguns algoritmos que você usa diariamente?
+
+
+[WARNING]
+Identifique e escreva pelo menos 3 algoritmos!
 
 === Meu primeiro programa
 O próximo exercício representa o nosso primeiro programa em Python!
