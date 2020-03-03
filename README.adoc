@@ -51,7 +51,7 @@ O próximo exercício representa o nosso primeiro programa em Python!
 ====
 [source,python]
 ----
-print("Olá python!") //<1>
+print("Olá python!") // <1>
 
 // Resultado:
 Olá python!
