@@ -20,7 +20,11 @@ Vamos lá?
 
 [quote, Oxford Lexico, A definição de algoritmo]
 Trata-se de um processo ou conjunto de regras a serem seguidas em cálculos ou outras operações voltadas para solução de problemas[...]
+<<<<<<< HEAD
  
+=======
+ + 
+>>>>>>> 2f7870f95da34faf60e3a8bd2aa73d4f1dc9c834
 Como a definção bem disse, algoritmos são basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, uma receita de bolo, pode ser caracterizada como um algoritmo, veja:
 
 . Pegue os ingredientes com a mão que são: 3 copos de farinha de trigo, 2 copos de açúcar, 1 colher (sobremesa) de fermento em pó, 3 cenouras grandes, 1 copo de óleo e 4 ovos. (Lembrando que os copos são em média de 300ml). 
