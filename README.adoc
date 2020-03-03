@@ -21,24 +21,17 @@ Vamos lá?
 [quote, Oxford Lexico, A definição de algoritmo]
 Trata-se de um processo ou conjunto de regras a serem seguidas em cálculos ou outras operações voltadas para solução de problemas[...]
  
-Como a definção bem disse, algoritmos são basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, uma receita de bolo, pode ser caracterizada como um algoritmo, veja:
+Como a definção bem disse, algoritmos são basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, se preparar para sair de casa de manhã, pode ser caracterizada como um algoritmo, veja:
 
-. Pegue os ingredientes com a mão que são: 3 copos de farinha de trigo, 2 copos de açúcar, 1 colher (sobremesa) de fermento em pó, 3 cenouras grandes, 1 copo de óleo e 4 ovos. (Lembrando que os copos são em média de 300ml). 
-. Primeirante pegue a faca e descasque a cenoura e corte-a. 
-. Pegue o liquidificador.
-. Coloque no liquidificador as cenouras (descascadas e picadas), o óleo e os ovos (Lembrando de quebra-los). 
-. Depois junte todos os ingredientes, bata mais um pouco e reserve. 
-. Ligue o botão do forno liberando o gás para ele ser ligado, no caso isso serve para ir aquecendo em temperatura de 180 a 210 graus. 
-. Pegue uma forma retangular ou redonda, pegue a manteiga na geladeira junto com um papel toalha.
-. Abra a tampa da manteiga, pegue o papel já dobrado e passe suavemente na manteiga. 
-. Depois passe o papel com manteiga em toda forma de bolo (menos do lado de fora). 
-. Coloque a massa pronta na forma de bolo. 
-. Coloque a forma no forno pré aquecido e deixe por uns 40 minutos. 
-. Passado os 40 minutos pegue um grafo e coloque no bolo, se não sair massa no garfo retire o bolo do forno com um guardanapo, se sair deixe mais um tempo no forno lembrando de sempre fura-lo pra ver se já esta bom. 
-. Passe uma faca envolta do bolo ainda dentro da forma, pegue um recipiente que caiba o bolo, e vire-o nele (lembrando de pegar a forma ainda com um guardanapo pois, estará quente). 
-. Pegue uma faca e corte o bolo. 
-
-
+. Levantar-se
+. Tomar um banho
+. Vestir-se
+. Calçar o sapato
+. Pegar itens essênciais(Chave, carteira etc)
+. Comer
+. Escovar os dentes
+. Pegar a mochila
+. Sair de casa
 
 Que tal tentar identificar e tentar escrever alguns algoritmos que você usa diariamente?
 
