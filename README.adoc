@@ -21,7 +21,6 @@ Vamos lá?
 [quote, Oxford Lexico]
 Trata-se de um processo ou conjunto de regras a serem seguidas em cálculos ou outras operações voltadas para solução de problemas[...]
 
- +   
 Como a definção bem disse, algoritmos são 
 basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, se preparar para sair de casa de manhã, pode ser caracterizada como um algoritmo, veja:
 
@@ -37,24 +36,37 @@ basicamente uma série de instruções para resolução de problemas, não neces
 
 Que tal tentar identificar e tentar escrever alguns algoritmos que você usa diariamente?
 
-
 [WARNING]
+====
+**Exercício Rápido** +
 Identifique e escreva pelo menos 3 algoritmos!
+====
+
 
 === Meu primeiro programa
+
 O próximo exercício representa o nosso primeiro programa em Python!
 
 .primeiro_programa.py
+====
 [source,python]
 ----
-print("Olá python!")
+print("Olá python!") //<1>
+
+// Resultado:
+Olá python!
+
+<1> O método ``print`` nos permite imprimir algum valor no terminal. No caso imprimimos __Olá python! __
 ----
-O método ``print``` nos permite imprimir algum valor no terminal. No caso imprimimos __Olá python! __
+====
+
+
 
 [TIP]
 Python também é possível quebrar a sentênça em múltiplas linhas
 
 .primeiro_programa.py
+====
 [source,python]
 ----
 print("Olá python!")
@@ -63,6 +75,68 @@ print(
     "Olá Python!"
 )
 ----
+====
+=== Variáveis e constantes
+Para armazenar dados mutáveis como idade de uma pessoa, quilometragem de um carro, utilizamos variáveis, veja:
 
-A seção <<teste-adoc>> fala sobre isso
- 
+.variaveis_e_constantes.py
+====
+[source,python]
+modelo = "Uno"
+fabricado_por = "Fiat"
+print("Modelo: " + modelo)
+print("Marca: " + fabricado_por)
+====
+
+Já para armazenar dados imutáveis como tipo sanguíneo, polegada de uma tv utilizamos de constantes. 
+
+.variaveis_e_constantes_2.js
+====
+[source,javascript]
+----
+var tipoSanguineo = "O+"
+
+// Erro!
+tipoSanguineo = "B+"
+----
+====
+
+[IMPORTANT]
+====
+Python não possui constantes. No lugar, são utilizados declarações em caixa alta! Ver exemplo <<>>
+====
+
+
+.variaveis_e_constantes.py
+====
+[source,python]
+----
+MODELO = "Uno"
+fabricado_por = "Fiat"
+print("Modelo: " + modelo)
+print("Marca: " + fabricado_por)
+----
+====
+
+# MOTIVO: Alguns acreditam que o motivo está por trás da ineficiencia em checar toda vez
+# se uma variável pode ser ou não alterada. Outros complementam que não se deve restringir esse tipo de coisa
+# visto que "somos todos adultos" e que podemos estar de acordo.
+
+# Fontes
+# https://stackoverflow.com/questions/17291791/why-no-const-in-python
+# https://mail.python.org/pipermail/tutor/2003-October/025932.html
+ANO = 2019
+print(ANO)
+ANO = 2020
+print(ANO)
+
+# Usar comentários aqui
+
+# Esse tipo de comentário não é o usual,
+# o interpretador vai ler mesmo assim e
+# enviar para o GC
+# """
+#     usar comentários de
+#     multiplas linhas tb
+# """
+# O correto é utilizar o # mesmo
