@@ -56,8 +56,8 @@ print("Olá python!") // <1>
 // Resultado:
 Olá python!
 
-<1> O método ``print`` nos permite imprimir algum valor no terminal. No caso imprimimos __Olá python! __
 ----
+<1> O método ``print`` nos permite imprimir algum valor no terminal. No caso imprimimos __Olá python! __
 ====
 
 
