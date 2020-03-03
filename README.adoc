@@ -20,8 +20,12 @@ Vamos lá?
 
 [quote, Oxford Lexico]
 Trata-se de um processo ou conjunto de regras a serem seguidas em cálculos ou outras operações voltadas para solução de problemas[...]
- 
-Como a definção bem disse, algoritmos são basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, se preparar para sair de casa de manhã, pode ser caracterizada como um algoritmo, veja:
+
+
+[%hardbreak%]
+   
+Como a definção bem disse, algoritmos são 
+basicamente uma série de instruções para resolução de problemas, não necessáriamente computacionais. Ou seja, se preparar para sair de casa de manhã, pode ser caracterizada como um algoritmo, veja:
 
 . Levantar-se
 . Tomar um banho
