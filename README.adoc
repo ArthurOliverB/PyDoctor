@@ -139,14 +139,51 @@ Evite criar comentários desnecessários!
 === Tipos básicos
 No mundo real usamos letras para expressar nomes, palavras para expressar textos e numeros para representar valores e com isso em mente as linguagens de programação possuem alguns tipos básicos para podermos traduzir isso para linguagem de máquina, dentre eles: 
 
-[cols="2*<"]
+.Tipos básicos
 |=== 
 |*Tipo*    | *Uso*
-| Strings  | Letras e palavras
+| Char  | Letras 
+| Strings  | Palavras
 | Inteiros | Numeros
 | Floats   | Decimais
 | Boolean  | Expressões lógicas
 |=== 
 
+[IMPORTANT]
+====
+Python une letras e palavras em __Strings__ ao invés de separar em __Char__ e __String__
+====
+O exemplo abaixo apresenta um uso prático para esses tipos básicos veja: 
 
+.Tipos básicos em Python
+====
+[source,python]
+----
+titulo = "Pulp Fiction"
+ano_lancamento = 1994
+avalicao = 4.6
+favorito = True
 
+print(
+    titulo,
+    "foi lançado em",
+    ano_lancamento,
+    "e tem nota",
+    avalicao
+)
+----
+====
+
+=== Tipagem fraca Vs Tipagem forte
+A tipagem de uma linguagem de programação representa a capacidade de uma variável alterar seu tipo. Uma tipagem fraca também conhecida como dinâmica, permite que uma variável possa ser alterar de tipo sem apresentar erros. Já a tipagem forte ou estática representa o contrário, uma vez com seu tipo definido não pode ser mais alterado. 
+
+====
+[source,python]
+---
+valor = 'Palavra'
+print(valor)
+
+valor = 3
+print(valor)
+---
+====
