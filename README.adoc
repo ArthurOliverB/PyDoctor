@@ -179,11 +179,11 @@ A tipagem de uma linguagem de programação representa a capacidade de uma vari�
 
 ====
 [source,python]
----
+----
 valor = 'Palavra'
 print(valor)
 
 valor = 3
 print(valor)
----
+----
 ====
