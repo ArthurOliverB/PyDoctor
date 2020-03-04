@@ -158,7 +158,7 @@ O exemplo abaixo apresenta um uso prático para esses tipos básicos veja:
 .Tipos básicos em Python
 ====
 [source,python]
-----
+----    
 titulo = "Pulp Fiction"
 ano_lancamento = 1994
 avalicao = 4.6
@@ -177,6 +177,9 @@ print(
 === Tipagem fraca Vs Tipagem forte
 A tipagem de uma linguagem de programação representa a capacidade de uma variável alterar seu tipo. Uma tipagem fraca também conhecida como dinâmica, permite que uma variável possa ser alterar de tipo sem apresentar erros. Já a tipagem forte ou estática representa o contrário, uma vez com seu tipo definido não pode ser mais alterado. 
 
+
+Python por exemplo é uma linguagem com uma tipagem fraca, dessa forma permitindo que uma mesma variável possa ser atribuida com tipos diferentes, veja:
+
 ====
 [source,python]
 ----
@@ -186,4 +189,29 @@ print(valor)
 valor = 3
 print(valor)
 ----
+====
+
+Já se tentassemos traduzir o exemplo acima para a linguagem Dart, que possui uma tipagem forte, geraria um erro, veja: 
+
+.Traduzindo para Dart
+====
+[source,dart]
+----
+main() {
+  String valor = 'Palavra';
+  print(valor);
+  //  Erro!
+  valor = 3;
+  print(valor);
+
+  dynamic outro = 'oito';
+  print(outro);
+  outro = 9.8;
+  print(x);
+}
+----
+====
+[NOTE]
+====
+*dynamic* é uma palavra chave da linguagem Dart que habilita a tipagem dinâmica para a variável __outro__. Dessa forma podendo alterar seu tipo mesmo trantando de uma linguagem com tipagem forte.
 ====
